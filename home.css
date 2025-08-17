@@ -50,7 +50,7 @@ header marquee {
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* flexible grid */
   gap: 15px;
-  padding: 20px;
+  padding: 15px;
 }
 
 .dog-card {
@@ -71,30 +71,94 @@ header marquee {
 .dog-card p {
   margin-top: 8px;
   font-weight: bold;
-  color: #333;
+  color: blue;
 }
 
 /* Footer Section */
 footer {
-  margin: 20px 0;
+  margin: 10% 0;
   background-color: #0066cc;
   margin-bottom: 0;
-  
+  margin-top:5% ;
+  padding-top:5%;
+  padding-bottom:5%;
 
 }
 
 footer a {
-  display: inline-block;
-  margin: 5px 10px;
-  padding: 10px 15px;
-  background-color: #444;
-  color: white;
+  font-weight: bold;
+  letter-spacing: -1px;
   text-decoration: none;
-  border-radius: 6px;
-  transition: 0.3s;
+  margin: .41%;
+  color: black;
+}
+footer a:nth-child(1) {
+  color: rgb(14, 12, 12);
+}
+footer a:nth-child(2) {
+  color: rgb(26, 11, 241);
+}
+footer a:nth-child(3) {
+  color: rgb(241, 242, 250);
+}
+footer a:nth-child(4) {
+  color: rgb(6, 241, 37);
+}
+footer a:nth-child(5) {
+  color: rgb(224, 113, 210);
+}
+footer a i {
+  margin-left: -1px;
+}
+/*---------change of icons----------*/
+footer .fa-facebook{
+color: rgb(252, 252, 253);
+}
+footer a .fa-facebook:hover{
+color: rgb(45, 15, 216);
+}
+/*---------change of icons----------*/
+footer .pay{
+color: rgb(252, 252, 253);
+}
+footer a .pay:hover{
+color: rgb(45, 15, 216);
+}
+/*---------change of icons----------*/
+footer .tok{
+color: rgb(17, 17, 24);
+}
+footer a .tok:hover{
+color: rgb(45, 15, 216);
+}
+/*---------change of icons----------*/
+footer .what{
+color: rgb(77, 187, 4);
+}
+footer a .what:hover{
+color: rgb(2, 182, 71);
+}
+/*---------change of icons----------*/
+footer .inst{
+color: rgb(233, 7, 165);
+font-weight: bolder;
+}
+footer a .inst:hover{
+color: rgb(2, 182, 71);
+}
+/*---------change of icons----------*/
+footer .tube{
+color: rgb(241, 4, 4);
+}
+footer span{
+color: rgb(236, 232, 232);
 }
 
 footer a:hover {
-  background-color: gold;
+  background-color: rgb(204, 201, 184);
   color: black;
+  border-radius: 5%;
+  padding: 3px;
+  transition: .29s ease;
+  font-size: 17px;
 }
